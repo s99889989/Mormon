@@ -69,7 +69,7 @@
 
             <td>家人家庭晚會-聚餐</td>
             <td>Wow's 邦查 Pangcah（波浪屋二號店)</td>
-            <td>2023/8/28</td>
+            <td>2023/8/28-下午6點</td>
             <td>2023/8/25</td>
             <td> <NuxtLink class="nav-link" target="_blank" to="https://maps.app.goo.gl/8hzAReYCxUprq3gx9?g_st=il">Google Map</NuxtLink></td>
             <td>無</td>
