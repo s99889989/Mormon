@@ -23,9 +23,8 @@ jobs:
 
       - name: Install & Generate 🔧
         run: |
-          npm install
-          npm run build
-          pm2 start
+          npm ci
+          npm run generate
         env:
           NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL  }}
 
