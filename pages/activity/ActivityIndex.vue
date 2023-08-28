@@ -84,7 +84,7 @@
             <td>2023/8/24</td>
             <td> <NuxtLink class="nav-link" to="/activity/2023/0826/Information">通知</NuxtLink></td>
             <td> <NuxtLink class="nav-link" to="/activity/2023/0826/Photo">照片</NuxtLink></td>
-            <td>活動中</td>
+            <td>結束</td>
           </tr>
           <tr>
 
