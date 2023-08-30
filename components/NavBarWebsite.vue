@@ -84,8 +84,15 @@ onMounted(()=>{
               <li><NuxtLink @click="selectNuxtLink($event)" class="dropdown-item" to="/temple/Temple-2023-09-16">最近聖殿日</NuxtLink></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">家譜</a>
+            <ul class="dropdown-menu">
+              <li><NuxtLink @click="selectNuxtLink($event)" class="dropdown-item" to="/genealogy/GenealogyIndex">訓練會議時程表</NuxtLink></li>
+              <li><NuxtLink @click="selectNuxtLink($event)" class="dropdown-item" to="/genealogy/Prize">櫃台+獎品製作</NuxtLink></li>
+            </ul>
+          </li>
           <li class="nav-item">
-            <NuxtLink @click="selectNuxtLink($event)" class="nav-link" to="/english">英文會話小組</NuxtLink>
+            <NuxtLink @click="selectNuxtLink($event)" class="nav-link" to="/english">英文會話</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink @click="selectNuxtLink($event)" class="nav-link" to="/link">連結</NuxtLink>
