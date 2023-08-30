@@ -16,7 +16,11 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <iframe src="/genealogy/必看櫃台事項.pdf" width="100%" height="600px"></iframe>
+                <object data="/genealogy/必看櫃台事項.pdf" type="application/pdf" width="100%" height="600px">
+                  <p>如果你无法查看此 PDF，请 <a href="/genealogy/必看櫃台事項.pdf">下载 PDF</a></p>
+                </object>
+
+<!--                <iframe src="/genealogy/必看櫃台事項.pdf" width="100%" height="600px"></iframe>-->
               </div>
             </div>
           </div>
@@ -63,13 +67,15 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                 活動集點卡
               </button>
             </h2>
             <div id="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
+
                 <img class="w-100" src="/genealogy/活動集點卡.png" alt="">
+
               </div>
             </div>
           </div>
