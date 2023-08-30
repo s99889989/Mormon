@@ -35,6 +35,14 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           integrity: "sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9",
           crossorigin: "anonymous"
+        },
+        {
+          href: "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.10.111/web/pdf_viewer.min.css",
+          rel: "stylesheet"
+        },
+        {
+          href: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf_viewer.min.css",
+          rel: "stylesheet"
         }
       ],
       script: [
@@ -46,6 +54,9 @@ export default defineNuxtConfig({
         {
           src: "https://kit.fontawesome.com/168d3a888b.js",
           crossorigin: "anonymous"
+        },
+        {
+          src: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js",
         }
       ]
     }

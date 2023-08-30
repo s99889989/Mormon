@@ -92,6 +92,9 @@ onMounted(()=>{
             </ul>
           </li>
           <li class="nav-item">
+            <NuxtLink @click="selectNuxtLink($event)" class="nav-link" to="/clean/CleanTime">打掃</NuxtLink>
+          </li>
+          <li class="nav-item">
             <NuxtLink @click="selectNuxtLink($event)" class="nav-link" to="/english">英文會話</NuxtLink>
           </li>
           <li class="nav-item">
