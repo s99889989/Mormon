@@ -5,7 +5,8 @@
 <script>
 export default {
   props: {
-    pdfUrl: String // 通过属性传递 PDF 文件的 URL
+    pdfUrl: String, // 通过属性传递 PDF 文件的 URL
+
   },
   mounted() {
     this.loadPdf();

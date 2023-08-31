@@ -85,7 +85,7 @@ onMounted(()=>{
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">家譜</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">家庭探索日</a>
             <ul class="dropdown-menu">
               <li><NuxtLink @click="selectNuxtLink($event)" class="dropdown-item" to="/genealogy/GenealogyIndex">訓練會議時程表</NuxtLink></li>
               <li><NuxtLink @click="selectNuxtLink($event)" class="dropdown-item" to="/genealogy/Prize">櫃台+獎品製作</NuxtLink></li>
